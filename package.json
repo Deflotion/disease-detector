@@ -1,0 +1,17 @@
+{
+  "name": "nano-jarvis",
+  "version": "1.0.0",
+  "description": "![Screenshot](nano-jarvis.png)",
+  "main": "detect-dieses.js",
+  "scripts": {
+    "start": "node --watch detect-dieses.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0"
+  }
+}
